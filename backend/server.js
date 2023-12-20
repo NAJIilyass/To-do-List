@@ -9,7 +9,7 @@ const cors = require('cors');*/
 //Express app
 const app = express()
 
-/*
+
 //connnect to MongoDB
 mongoose.connect(process.env.MONG_URI)
     .then((result) => app.listen(process.env.PORT, () => {
@@ -19,7 +19,7 @@ mongoose.connect(process.env.MONG_URI)
 
 //Middleware
 app.use(express.json())
-*/
+
 app.use((req, res, next) => {
     console.log(req.path, req.method)
     next();
