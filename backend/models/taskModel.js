@@ -21,4 +21,4 @@ const taskSchema = new Schema({
   }
 }, { timestamps: true })
 
-module.exports = mongoose.model('yask', taskSchema)
+module.exports = mongoose.model('Task', taskSchema)
