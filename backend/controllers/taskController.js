@@ -1,4 +1,4 @@
-/*const Task = require('../models/taskModel')
+const Task = require('../models/taskModel')
 const mongoose = require('mongoose')
 
 //GET all tasks
@@ -85,4 +85,4 @@ module.exports = {
     createTask,
     deleteTask,
     updateTask
-}*/
+}
