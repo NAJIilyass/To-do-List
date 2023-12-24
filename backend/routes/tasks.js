@@ -1,4 +1,4 @@
-/*const express = require('express')
+const express = require('express')
 const {createTask, getTasks, getTask, deleteTask, updateTask} = require('../controllers/taskController')
 const requireAuth = require('../middleware/requireAuth')
 
@@ -22,4 +22,4 @@ router.delete('/:id', deleteTask)
 //PATCH a new task
 router.patch('/:id', updateTask)
 
-module.exports= router*/
+module.exports= router
