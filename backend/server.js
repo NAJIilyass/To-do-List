@@ -1,10 +1,10 @@
 require('dotenv').config()
 
 const express = require('express')
-/*const tasksRoutes = require('./routes/tasks')
+const tasksRoutes = require('./routes/tasks')
 const userRoutes = require('./routes/users')
 const mongoose = require('mongoose');
-const cors = require('cors');*/
+/*const cors = require('cors');*/
 
 //Express app
 const app = express()
@@ -30,4 +30,4 @@ app.use((req, res, next) => {
 
 //Routes
 app.use('/api/tasks', tasksRoutes)
-//app.use('/api/users', userRoutes)
+app.use('/api/users', userRoutes)
