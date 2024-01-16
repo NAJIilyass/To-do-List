@@ -2,7 +2,7 @@ import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
 
 //Pages & Components
 import Home from './pages/Home'
-//import Navbar from './components/Navbar';
+import Navbar from './components/Navbar';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import { useAuthContext } from './hooks/useAuthContext';
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="bg-blue-950 min-h-screen font-mono min-w-fit">
       <BrowserRouter>
-        {/* <Navbar/> */}
+        <Navbar/>
         <div className="pages">
           <Routes>
             <Route
