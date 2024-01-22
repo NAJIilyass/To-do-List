@@ -10,7 +10,9 @@ export const useLogin = () => {
     
     
     const login = async (email, password) => {
-       
+        setIsLoading(true)
+        setError(null)
+
         try{
             const response = await axios.post(`${baseUrl}/api/users/login`, {
                 email,
