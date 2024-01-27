@@ -55,7 +55,7 @@ const TodoForm = ({baseUrl}) => {
                 required
             ></textarea>
 
-            <button className="bg-green text-lg font-normal text-white rounded px-4 py-2 w-1/2 mx-auto">Seve</button>
+            <button className="bg-green text-lg font-normal text-white rounded px-4 py-2 w-1/2 mx-auto">Save</button>
             {error && <div className="error">{error}</div>}
         </form>
      );
