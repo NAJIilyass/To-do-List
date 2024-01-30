@@ -107,7 +107,7 @@ const PendingTasks = ({baseUrl, tasks, idToModifyNull, changeIdToModify}) => {
         
             modifyTask();
         }
-    }, [idToModifyNull]); // Include title and description in the dependencies
+    }, [idToModifyNull]);
 
     return (
         <div className="mx-6">
